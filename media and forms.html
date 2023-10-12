@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media and forms</title>
+  </head>
+  <body>
+    <h3>Ans 1</h3>
+    <h2>Gallery</h2>
+    <img src="images for assingment\1213887.png" width="300px" alt="anime" />
+
+    <img
+      src="images for assingment\3555148.jpg"
+      alt="Harry styles"
+      style="float: right; width: 182px; height: 180px"
+    />
+    <img
+      src="images for assingment\1032333.jpg"
+      width="270px"
+      alt="heros"
+      style="float: inline-start"
+    />
+    <img
+      src="images for assingment\936158.png"
+      width="300px"
+      alt="god of war"
+    />
+    <img
+      src="images for assingment\CRED_(FinTech_company)_logo.png"
+      width="265px"
+      height="180px"
+      alt="cred"
+    />
+    <hr />
+    <h3>Ans 2</h3>
+    <video
+      controls
+      autoplay="loop"
+      muted
+      poster="images for assingment\3555148.jpg"
+      width="700px"
+      height="200px"
+      src="www.KeepVid.to--One-Direction-What-Makes-You-Beautiful-www-youtube-com-480p-347341d9eb1b8369f500264be6126146-480p.mp4"
+    ></video>
+    <audio
+      controls
+      controlslist="nodownload"
+      src="One_Direction_-_What_Makes_You_Beautiful_[NaijaGreen.Com]_.mp3"
+    ></audio>
+    <h3>Ans 3</h3>
+    <hr />
+    <h3>Ans 4</h3>
+    <iframe
+      src="https://en.wikipedia.org/wiki/Physics_Wallah"
+      frameborder="0"
+      width="1000px"
+      height="200px"
+    ></iframe>
+    <hr />
+    <h3>Ans 5</h3>
+    <h2>sign up form</h2>
+
+    <form action="signup" method="post">
+      <label for="firstname">firstname :</label>
+      <input
+        placeholder="firstname"
+        type="text"
+        id="firstname"
+        name="firstname"
+        required
+        minlength="3"
+        maxlength="20"
+      /><br />
+
+      <label for="lastname">lastname :</label>
+      <input
+        type="text"
+        name="lastname"
+        placeholder="lastname"
+        id="lastname"
+        required
+        minlength="3"
+        maxlength="20"
+      /><br />
+
+      <label for="email">email :</label>
+      <input
+        type="text"
+        name="email"
+        placeholder="email"
+        id="email"
+        required
+        minlength="3"
+        maxlength="20"
+      /><br />
+
+      <label for="password">password :</label>
+      <input
+        type="password"
+        name="password"
+        placeholder="****"
+        required
+        minlength="3"
+        maxlength="20"
+      /><br />
+
+      <label for="confirmpassword">confirmpassword :</label>
+      <input
+        type="password"
+        name="confirmpassword"
+        id="confirmpassword"
+        placeholder="****"
+        required
+        minlength="3"
+        maxlength="20"
+      />
+      <br />
+      <label for="age">Age</label>
+      <input
+        type="number"
+        name="age"
+        id="age"
+        placeholder="age"
+        required
+        min="0"
+        max="100"
+      />
+      <br />
+      <label for="gender"
+        >gender:
+        <input type="radio" id="gender" value="male" />
+        <label for="male">male</label>
+        <input type="radio" name="female" value="female" id="gender" />
+        <label for="female">female</label>
+        <input type="radio" name="other" value="other" id="gender" />
+        <label for="other">other</label>
+      </label>
+      <br />
+      <label for="">terms:</label>
+      <input type="checkbox" name="terms" id="terms" /> i agree to all
+      condition.
+      <button type="submit">submit</button>
+    </form>
+    <h3>Sign in</h3>
+    <form action="signin" method="post">
+      <label for="Email">Email</label>
+      <input
+        type="text"
+        id="Email"
+        name="Email"
+        placeholder="Email"
+        required
+        minlength="20"
+        maxlength="100"
+      />
+      <label for="password">password</label>
+      <input
+        type="password"
+        id="password"
+        placeholder="***"
+        name="password"
+        required
+        minlength="20"
+        maxlength="100"
+      />
+      <button type="submit">submit</button>
+    </form>
+  </body>
+</html>
